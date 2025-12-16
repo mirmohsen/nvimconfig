@@ -14,8 +14,10 @@ vim.opt.number = true
 --? Tabs & indentation
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
-vim.opt.shiftround = true
+vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 
 --? Keymap
 vim.keymap.set('n', '<leader>h', vim.cmd.nohlsearch)
+
+print("Setting loaded!")
