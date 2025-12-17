@@ -18,6 +18,7 @@ vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 
 --? Keymap
-vim.keymap.set('n', '<leader>h', vim.cmd.nohlsearch)
+vim.keymap.set("n", "<leader>h", vim.cmd.nohlsearch)
+vim.keymap.set("n", "<leader>fd", vim.cmd.Ex, { desc = "Folder/File Directory"})
 
 print("Setting loaded!")
